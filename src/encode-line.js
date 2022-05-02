@@ -33,7 +33,6 @@ function encodeLine(str) {
       newStr += str[i];
     }
   }
-  console.debug(newStr);
   return newStr.replace(/1/g,'');
 }
 
