@@ -15,11 +15,9 @@ const { NotImplementedError } = require('../extensions/index.js');
  *
  */
 function isMAC48Address(n) {
-  console.debug(n);
   let regExp = /[0-9A-F][0-9A-F]/;
   
   n = n.split('-');
-  console.debug(n);
   
   let res = true;
 
