@@ -18,7 +18,6 @@ const HALF_LIFE_PERIOD = 5730;
  *
  */
 function dateSample(sampleActivity) {
-  console.debug(sampleActivity);
   if(isNaN(sampleActivity)){
     return false;
   }
